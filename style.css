@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+/* nav bar section */
+.logo-image {
+    width: 120px;
+    height: 70px;
+}
+
+@media screen and (max-width:576px) {
+    .logo-image {
+        height: 50px;
+        width: 90px;
+    }
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+/* banner section */
+.banner-section-bg-container {
+    background-image: url('https://www.worldatlas.com/r/w1300/upload/8c/48/6c/shutterstock-190469312.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text-constiner {
+    text-align: center;
+}
+
+.banner-heading {
+    font-family: "Roboto";
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media screen and (max-width:576px) {
+    .banner-heading {
+        font-size: 25px;
+    }
+}
+
+.banner-discription {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.banner-button {
+    background-color: #12a2a1;
+    border-radius: 20px;
+    height: 40px;
+    width: 140px;
+    border-width: 0px;
+    font-size: 16px;
+    font-family: "serif";
+    color: #ffffff;
+}
+
+.banner-button-icon {
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+/* holiday-packages-section */
+
+.holiday-packages-section {
+    background-color: #ffffff;
+}
+
+.section-headings {
+    font-family: "Roboto";
+    font-size: 35px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+@media screen and (max-width:576px) {
+    .section-headings {
+        font-size: 25px;
+    }
+}
+
+.hor-line {
+    border-width: 5px;
+    border-color: #12a2a1;
+    width: 150px;
+}
+
+.holiday-img1 {
+    background-image: url('https://bonbontravel.com.vn/userfiles/images/product/singapore.jpeg');
+}
+
+.holiday-img2 {
+    background-image: url('https://media1.thrillophilia.com/filestore/2qpks66pkhwob885ap9nrmdggioe_shutterstock_284505194.jpg');
+}
+
+.holiday-img3 {
+    background-image: url('https://d26dp53kz39178.cloudfront.net/media/uploads/products/sgbfvc_result-1663142225607.webp');
+}
+
+.holiday-img4 {
+    background-image: url('https://cdn.kimkim.com/files/a/images/c3c1948ac7e51bdfcea025fb6ed10104914ca517/original-c3f4b412b1b185a89f3767c41a162e8b.jpg');
+}
+
+.hp-card {
+    height: 300px;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+}
+
+.hp-heading {
+    font-family: "Roboto";
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px #12a2a1;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.hp-card-discription {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: white;
+    font-style: italic;
+}
+
+.hp-button {
+    background-color: #12a2a1;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    border-width: 0px;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.more {
+    font-size: 20px;
+
+}
+
+/* booking-ticket-continser */
+.booking-ticket-continser {
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.booking-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.booking-discription {
+    font-family: "Roboto";
+    color: #7c8c9b;
+    font-size: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-input-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-group {
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.from-to-arrow {
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width:576px) {
+    .form-input-elements {
+        flex-direction: column;
+    }
+
+    .from-to-arrow {
+        display: none;
+    }
+}
+
+.input-ele {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.each-package-cards {
+    min-height: 900px;
+}
+
+.avaliable-flights-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.price-wrong {
+    color: #858585;
+    text-decoration: line-through;
+}
+
+.discount {
+    color: #ffffff;
+    background-color: #237c29;
+    border-radius: 5px;
+}
+
+.price-container {
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width:576px) {
+    .card-heading {
+        font-size: 25px;
+    }
+
+    .card-days {
+        font-size: 15px;
+    }
+
+    .card-root {
+        font-size: 12px;
+    }
+
+    .each-package-cards {
+        min-height: 850px;
+    }
+
+    .price-wrong {
+        font-size: 15px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+}
+
+/* footer */
+
+.footer-logo-image {
+    width: 100%;
+}
+
+.fottor-headings {
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #72be45;
+}
+
+.fottor-icons {
+    font-size: 35px;
+    color: #46b2b9;
+}
+
+@media screen and (max-width:576px) {
+    .fottor-headings {
+        font-size: 15px;
+    }
+
+    .fotter-number {
+        font-size: 13px;
+    }
+}
